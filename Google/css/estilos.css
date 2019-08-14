@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.barra-navegacao {
+    height: 62px;
+    text-align: right;
+    font-size: 13px;
+    position: sticky;
+    padding: 30px;
+    width: 100%;
+}
+
+.barra-navegacao>a {
+    color: rgb(0, 0, 0, .87);
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.barra-navegacao>a:hover, .barra-navegacao>a:focus {
+    /* movimento do mouse em cima*/
+    text-decoration: underline;
+    outline: 0;
+}
+
+.pesquisa {
+    border: 1px solid #dfe1e5;
+    width: 572px;
+    margin: 0 auto;
+    border-radius: 24px;
+    height: 46px;
+    margin-top: 23px;
+    padding: 5px 20px;
+}
+
+.pesquisa:hover, .pesquisa:focus-within {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.pesquisa img {
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+#mic {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+input[type='text'] {
+    border: none;
+    outline: none;
+    color: rgba(0, 0, 0, .87);
+    cursor: text;
+    font-size: 16px;
+    height: 100%;
+    width: 446px;
+}
+
+.apps {
+    opacity: 0.55;
+    vertical-align: middle;
+}
+
+.apps:hover, apps:focus {
+    opacity: 1;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.conteudo {
+    text-align: center;
+}
+
+.logo {
+    margin-top: 140px;
+}
+
+.botoes {
+    margin-top: 30px;
+}
+
+.botoes button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    cursor: pointer;
+}
+
+.botoes>button {
+    color: #5f6368;
+    font-size: 14px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    height: 36px;
+    padding: 0 16px;
+    margin: 0 4px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+
+footer>div {
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+}
+
+.rodape-pais {
+    font-size: 15px;
+    color: rgb(0, 0, 0, .54);
+    padding-left: 30px;
+}
+
+.rodape-esquerda, .rodape-direita {
+    width: 50%;
+    float: left;
+    padding-left: 23px;
+}
+
+.rodape-direita {
+    text-align: right;
+    padding-right: 23px;
+}
+
+.rodape-direita>a, .rodape-esquerda>a {
+    font-size: 13px;
+    color: #5f6368;
+    text-decoration: none;
+}
+
+.rodape-direita>a:hover, .rodape-esquerda>a:hover {
+    text-decoration: underline;
+    margin-left: 27px;
+}
